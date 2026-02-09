@@ -1,0 +1,8 @@
+# Maven Central Portal credentials
+# Get these from https://central.sonatype.com/ after creating an account
+centralPortalUsername=
+centralPortalPassword=
+
+signing.keyId=
+signing.password=
+signing.secretKeyRingFile=

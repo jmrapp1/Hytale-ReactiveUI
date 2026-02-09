@@ -1,0 +1,16 @@
+$C = "../Common.ui";
+
+Group #Tab2 {
+  LayoutMode: Top;
+
+  Label #Tab2 {
+    Text: "Tab 2";
+    Style: (FontSize: 24, RenderBold: true, TextColor: #ffffff);
+  }
+
+  $C.@TextButton #Btn {
+    Anchor: (Top: 40, Width: 175, Height: 45);
+    Text: "Click Me!";
+  }
+  
+}

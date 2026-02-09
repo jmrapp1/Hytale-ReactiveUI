@@ -1,0 +1,25 @@
+$C = "../Common.ui";
+
+Group {
+  LayoutMode: Top;
+
+  Group {
+    LayoutMode: Left;
+
+    $C.@TextButton #BackBtn {
+      Anchor: (Top: 40, Width: 175, Height: 45);
+      Text: "Go Back";
+    }
+  }
+
+  Group {
+    LayoutMode: Left;
+    Anchor: (Top: 20);
+
+    Label #Tab2 {
+      Text: "Great job!";
+      Style: (FontSize: 18);
+    }
+  }
+
+}

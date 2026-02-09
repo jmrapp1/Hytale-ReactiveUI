@@ -1,0 +1,20 @@
+
+Group #IteratedElement {
+  Padding: (Vertical: 20);
+  Anchor: (Bottom: 10);
+  Background: #223552;
+
+  Group {
+    LayoutMode: Left;
+
+    Label {
+      Text: "This is element #";
+      Style: (FontSize: 16);
+    }
+    Label #ElementIndex {
+      Text: "";
+      Style: (FontSize: 16);
+    }
+  }
+
+}

@@ -1,0 +1,14 @@
+
+Group #Tab1 {
+
+  Label #Tab1 {
+    Text: "Tab 1";
+    Style: (FontSize: 24, RenderBold: true, TextColor: #ffffff);
+  }
+
+  Group #IteratedList {
+    LayoutMode: TopScrolling;
+    Padding: (Vertical: 40);
+  }
+
+}

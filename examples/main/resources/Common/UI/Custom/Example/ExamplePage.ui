@@ -1,0 +1,29 @@
+$C = "../Common.ui";
+
+$C.@DecoratedContainer {
+  @TitleHeight = 75;
+
+  Anchor: (Width: 800, Height: 450);
+
+  Group {
+    LayoutMode: Top;
+
+    Group #Tabs {
+      LayoutMode: Left;
+      Padding: (Vertical: 20, Horizontal: 20);
+
+      $C.@TextButton #Tab1 {
+        Text: "Tab 1";
+      }
+      $C.@TextButton #Tab2 {
+        Anchor: (Left: 20);
+        Text: "Tab 2";
+      }
+    }
+
+    Group #Content {
+      Anchor: (Top: 30);
+    }
+  }
+
+}
