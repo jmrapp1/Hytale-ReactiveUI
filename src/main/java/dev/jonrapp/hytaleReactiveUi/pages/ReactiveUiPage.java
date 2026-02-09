@@ -31,7 +31,9 @@ import javax.annotation.Nonnull;
  *     public void showTab2() {
  *         showPrimaryElement(new Tab2Element(this));
  *     }
- *     
+ *
+ *     // Defaults already to #Content!
+ *     // This has just been overridden to explain where the primary elements are displayed.
  *     @Override
  *     public String getRootContentSelector() {
  *         return "#Content";
@@ -98,6 +100,8 @@ public abstract class ReactiveUiPage extends ReactiveUiBasePage {
      *
      * @return the CSS selector for the primary element container
      */
-    public abstract String getRootContentSelector();
-
+    public String getRootContentSelector()
+    {
+        return "#Content";
+    }
 }

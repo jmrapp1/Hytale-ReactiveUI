@@ -41,10 +41,4 @@ public class ExamplePage extends ReactiveUiPage {
 
         showPrimaryElement(new Tab1(this));
     }
-
-
-    @Override
-    public String getRootContentSelector() {
-        return "#Content";
-    }
 }
