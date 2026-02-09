@@ -4,6 +4,8 @@ A modern, reactive UI framework for Hytale server-side modding that simplifies U
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![Hytale ReactiveUI](https://raw.githubusercontent.com/jmrapp1/Hytale-ReactiveUI/master/hytale-reactiveui.png)
+
 ## Features
 
 - **Automatic Data Binding** - UI updates automatically when values change
