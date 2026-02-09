@@ -59,7 +59,7 @@ and element management. It includes built-in support for managing a "primary ele
 - a single element that can be easily swapped out, making it perfect for tabbed interfaces or wizard-style UIs.
 
 ```java
-public class MyPage extends ReactiveUIPage {
+public class MyPage extends ReactiveUiPage {
     
     public MyPage(@Nonnull PlayerRef playerRef) {
         super(playerRef, CustomPageLifetime.CanDismiss);
