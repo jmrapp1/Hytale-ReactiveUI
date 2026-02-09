@@ -41,4 +41,11 @@ public class ExamplePage extends ReactiveUiPage {
 
         showPrimaryElement(new Tab1(this));
     }
+
+    // Defaults already to #Content!
+    // This has just been overridden to explain where the primary elements are displayed.
+//    @Override
+//    public String getRootContentSelector() {
+//        return "#Content";
+//    }
 }
