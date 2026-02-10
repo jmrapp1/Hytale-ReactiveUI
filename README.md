@@ -2,7 +2,7 @@
 
 A modern, reactive UI framework for Hytale server-side modding that simplifies UI management through automatic data binding, declarative event handling, and reusable components.
 
-[Join our Discord to stay up-to-date!](https://discord.gg/Sek7zBSY8m)
+[Join our Discord to get support & stay up-to-date!](https://discord.gg/Sek7zBSY8m)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
