@@ -59,8 +59,8 @@ dependencies {
 
 Pages are the primary entry point for UI in Hytale. ReactiveUI provides `ReactiveUiPage`, 
 an enhanced page implementation that simplifies event handling, data binding, 
-and element management. It includes built-in support for managing a "primary element"
-- a single element that can be easily swapped out, making it perfect for tabbed interfaces or wizard-style UIs.
+and element management. It includes built-in support for managing a "primary element",
+a single element that can be easily swapped out, making it perfect for tabbed interfaces or wizard-style UIs.
 
 ```java
 public class MyPage extends ReactiveUiPage {
