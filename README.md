@@ -89,10 +89,12 @@ public class MyPage extends ReactiveUiPage {
         // Show initial element
         showPrimaryElement(new MyTab(this));
     }
-    
+
+    // Defaults already to #Content!
+    // This has just been overridden to explain where the primary elements are displayed.
     @Override
     public String getRootContentSelector() {
-        return "#Content";  // Where primary elements are displayed
+        return "#Content";
     }
 }
 ```
